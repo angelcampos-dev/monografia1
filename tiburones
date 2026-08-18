@@ -1,0 +1,54 @@
+codigo para html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    <title>tipos de tiburones</title>
+</head>
+<body>
+    <section id="assets" class="container">
+        <div class="text-center pt-5">
+            <h1>Tipos de </h1>
+            <p>tiburones</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="assets/blanco.jpg.jpg" alt="">
+                <p>Características FísicasCuerpo: Forma de huso o torpedo para nadar muy rápido.Color: Gris o marrón arriba y blanco abajo para camuflarse.Dientes: Triangulares, anchos y con borde de sierra en varias hileras.Tamaño: Las hembras son más grandes que los machos.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/mako.jpg" alt="">
+                <p>Apariencia físicaCuerpo: Forma de torpedo muy alargada y fuerte.Color: Azul metálico o gris oscuro en la espalda, y blanco brillante en el vientre.Cabeza: Hocico largo y puntiagudo.Dientes: Muy afilados y largos; se ven incluso cuando tiene la boca cerrada.Tamaño: Mide entre 3 y 4 metros de largo. Pesa cerca de 130 kg o más en adultos.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/martillo.jpg.jpg" alt="">
+                <p>Características físicasCabeza (Cefalofolio): Sus ojos y orificios nasales están en los extremos. Esto le da una visión de 360 grados en el plano vertical.Sentidos: Posee poros sensoriales llamados ampollas de Lorenzini distribuidos por la cabeza que detectan los campos eléctricos de presas ocultas en la arena.Tamaño: Varía según la especie. El tiburón martillo gigante (Sphyrna mokarran) mide entre 3,5 y 6 metros de largo, mientras que otras especies son más pequeñas.Color: Presenta tonos grises, marrones o verdosos en la parte superior y un tono más claro o blanco en el vientre.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/tiburón-ballena-1.jpg.jpg" alt="">
+                <p>Características del cuerpoTamaño gigante: Es el pez más grande de los océanos.Diseño único: Su piel tiene puntos y líneas blancas que forman un mapa único en cada pez.Boca enorme: Mide cerca de un metro y medio de ancho y no usa dientes para morder.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/tigre.jpg.jpg" alt="">
+                <p>Aspecto FísicoCuerpo: Robusto y alargado, con lomo gris o azulado y vientre blanco.Rayas: Líneas verticales oscuras en los costados. Son muy claras en jóvenes y se borran con los años.Cabeza: Ancha, chata y con un hocico corto en forma de romo.Dientes: Muy fuertes, curvos y con bordes de sierra para cortar huesos y caparazones de tortuga.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="assets/toro.jpg.jpg" alt="">
+                <p>Aspecto y TamañoCuerpo: Robusto, ancho y pesado, con un hocico corto y chato que le da el nombre de "toro".Color: Gris en la parte superior y blanco pálido en el vientre.Medidas: Los adultos miden entre 2.5 y 3.4 metros de largo.Peso: Su peso común va de los 90 a los 230 kilogramos, siendo las hembras más grandes que los machos</p>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
