@@ -1,0 +1,55 @@
+/* Configuración general de las tarjetas del carrusel */
+.carousel-inner .card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Obliga a todas las tarjetas a medir lo mismo */
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto visual al pasar el cursor (Hover) */
+.carousel-inner .card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Control y encuadre de las imágenes de los tiburones */
+.carousel-inner .card-img-top {
+  height: 220px; /* Altura fija para que la cuadrícula se vea alineada */
+  object-fit: cover; /* Recorta la imagen proporcionalmente sin deformarla */
+}
+
+/* Distribución interna del contenido de la tarjeta */
+.carousel-inner .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Empuja el botón al fondo si hay textos de distinto largo */
+  padding: 1.5rem;
+  text-align: left; /* Alineación más legible para párrafos descriptivos */
+}
+
+.carousel-inner .card-title {
+  color: #1a252f;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.carousel-inner .card-text {
+  color: #5a626a;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+/* Ajuste del botón para que se mantenga abajo del todo */
+.carousel-inner .btn-primary {
+  align-self: flex-start; /* Hace que el botón ocupe solo su ancho natural */
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 0.5rem 1.25rem;
+}
